@@ -11,7 +11,7 @@ bats_require_minimum_version() { # <required version>
     exit 1
   fi
 
-  if bats_backports_version_lt "$BATS_GUARANTEED_MINIMUM_VERSION" "$required_minimum_version"; then
+  if bats_backports_version_lt "${BATS_GUARANTEED_MINIMUM_VERSION:-0.0.0}" "$required_minimum_version"; then
     BATS_GUARANTEED_MINIMUM_VERSION="$required_minimum_version"
   fi
 }
