@@ -1,3 +1,5 @@
+[![tests](https://github.com/bats-core/bats-backports/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/bats-core/bats-backports/actions/workflows/tests.yml)
+
 # bats-backports
 
 Provides new functions to older Bats versions.
