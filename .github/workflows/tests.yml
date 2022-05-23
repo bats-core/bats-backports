@@ -21,3 +21,4 @@ jobs:
           path: bats-core
       - run: bash --version
       - run: bats-core/bin/bats test/
+        shell: bash
