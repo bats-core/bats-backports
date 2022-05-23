@@ -15,3 +15,5 @@ bats_require_minimum_version() { # <required version>
     BATS_GUARANTEED_MINIMUM_VERSION="$required_minimum_version"
   fi
 }
+
+export -f bats_require_minimum_version

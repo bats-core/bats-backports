@@ -25,3 +25,5 @@ bats_backports_version_lt() { # <version1> <version2>
   # if we made it this far, they are equal -> also not less then
   return 2 # use other failing return code to distinguish equal from gt
 }
+
+export -f bats_backports_version_lt
